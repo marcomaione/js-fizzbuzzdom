@@ -5,7 +5,7 @@ for ( let i = 1; i <= 100; i++) {
 
     if ( i%3===0 && i%5===0) {
         containerElement.innerHTML +="<div class='box rosso'>fizzbuzz</div>";
-        //stampa fizzbuzz
+        //stampa fizzbuzz//
     }
 
      else if(i%3===0) {
@@ -13,7 +13,7 @@ for ( let i = 1; i <= 100; i++) {
         containerElement.innerHTML +="<div class='box verde'> fizz </div>";
     }
 
-     else if ( i%5===0) {
+     else if (i%5===0) {
         containerElement.innerHTML +="<div class='box giallo'> buzz </div>";
         //stampa buzz//
     }
